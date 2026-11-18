@@ -8,7 +8,7 @@ title: Privacy Policy — Spaceprint
 
 **App:** Spaceprint
 
-**Last updated:** 13 November 2026
+**Last updated:** 19 November 2026
 
 [← Documentation home](index.html)
 
@@ -37,7 +37,7 @@ When someone starts a copy, the app stores a copy job in Forge storage:
 | --- | --- |
 | The Atlassian account ID of the person who started it | To run the copy as that person and to limit who can view the job |
 | Template ID, source space key, name and key of the new space, the copy settings | To run the copy |
-| The values of `{{Project}}`, `{{Owner}}` and `{{today}}`. `{{Owner}}` is the person's display name unless they change it | To replace the variables |
+| The values of `{{Project}}`, `{{Owner}}` and `{{today}}`. `{{Owner}}` is the person's display name unless they change it | To replace the variables. Erased from the job when the copy ends |
 | IDs of spaces, pages and folders, titles of pages and folders | To track the copy. The list of page trees is cleared after the pages are copied |
 | Role assignments of the source space: principal type and ID, role ID | To repeat them in the new space. Each one is removed from the list once it is handled; failed ones stay in the report |
 | Status, counts, titles of items not copied or not updated, error text | To show progress and the report |
@@ -91,7 +91,8 @@ about them.
 ## Data retention and deletion
 
 - Deleting a template removes it from Forge storage. Spaces created from it stay.
-- Copy jobs are stored with an expiry of 30 days after their last change.
+- Copy jobs are stored with an expiry of 30 days after their last change. The values
+  of variables are erased from a job as soon as the copy ends, whether it succeeds or fails.
 - Uninstalling the app removes its stored data according to Atlassian's Forge
   storage lifecycle. On a development installation on 6 November 2026 templates
   and jobs were gone after uninstalling and installing again.

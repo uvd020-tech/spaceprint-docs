@@ -6,7 +6,7 @@ title: Security Policy — Spaceprint
 
 **App:** Spaceprint
 
-**Last updated:** 13 November 2026
+**Last updated:** 19 November 2026
 
 [← Documentation home](index.html)
 
@@ -23,7 +23,7 @@ Infrastructure-level controls — transport encryption, platform patching, physi
 Full detail is in the [Privacy Policy](privacy.html); in summary:
 
 - We store templates: their names, source space keys and copy settings.
-- We store copy jobs for 30 days after their last change: the account ID of the person who started the copy, the name and key of the new space, the values of variables, titles of pages and folders, role assignments and the report.
+- We store copy jobs for 30 days after their last change: the account ID of the person who started the copy, the name and key of the new space, titles of pages and folders, role assignments and the report. The values of variables are kept only while the copy runs and are erased when it ends.
 - We never store passwords, email addresses, payment details, or the text of pages.
 - The app writes only to the new space. It does not change the source space or any other existing space.
 
