@@ -1,5 +1,5 @@
 ---
-title: FAQ — SpaceStamp
+title: FAQ — Spaceprint
 ---
 
 {% raw %}

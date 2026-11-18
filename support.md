@@ -1,5 +1,5 @@
 ---
-title: Support — SpaceStamp
+title: Support — Spaceprint
 ---
 
 {% raw %}

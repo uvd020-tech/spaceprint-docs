@@ -1,12 +1,12 @@
 ---
-title: Privacy Policy — SpaceStamp
+title: Privacy Policy — Spaceprint
 ---
 
 {% raw %}
 
 # Privacy Policy
 
-**App:** SpaceStamp
+**App:** Spaceprint
 
 **Last updated:** 13 November 2026
 
@@ -14,7 +14,7 @@ title: Privacy Policy — SpaceStamp
 
 ## Summary
 
-SpaceStamp is an [Atlassian Forge](https://developer.atlassian.com/platform/forge/)
+Spaceprint is an [Atlassian Forge](https://developer.atlassian.com/platform/forge/)
 app. It runs on Atlassian's infrastructure. It has no servers of its own, makes
 no requests to other hosts, and sends no data to any third party. What the app
 stores stays inside the Forge platform and your Confluence site.
